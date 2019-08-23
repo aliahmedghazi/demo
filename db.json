@@ -1,14 +1,16 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+   "amount":{
+      "currency":"GBP",
+      "value":0
+   },
+   "card":{
+      "cvc":"1234",
+      "expiryMonth":"10",
+      "expiryYear":"2020",
+      "holderName":"John Smith",
+      "number":"6036283997595793321"
+   },
+   "reference":"Your Reference Here",
+   "merchantAccount":"TestMerchant",
+   "selectedBrand":"givex"
 }
